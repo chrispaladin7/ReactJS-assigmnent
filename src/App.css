@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+
+.blog-container{
+  background-color: wheat;
+  width: 100%;
+}
+
+
+.App-leftdiv{
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  width: 75%;
+  height: 680px;
+  background-color: #edebeb;
+  float: left;
+  } 
+
+
+.App-header {
+  background-color: black;
+  background-image: url("./v975-background-07-b-kqkr4ukm.jpg");
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: column;  
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+
+  .App-leftdiv h1{
+    color: #1a48c4;
+  }
+
+  .App-leftdiv a{
+    text-decoration: none;
+  }
+
+
+.App-rightdiv{
+  display: flex;
+  color: white;
+  width: 25%;
+  height: 680px;
+  background-color: #edebeb;
+  flex-direction: column;
+}
+
+.App-footer{
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  height: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.links a{
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover{
+  color:yellow;
+}
+
+.post-container h4{
+  padding: 5px;
+  padding-top: 10px;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
